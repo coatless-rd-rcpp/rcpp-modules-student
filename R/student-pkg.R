@@ -5,11 +5,3 @@
 #' @useDynLib RcppStudent, .registration = TRUE
 #' @import methods Rcpp
 "_PACKAGE"
-
-
-# Export the "Student" C++ class by explicitly requesting Student be
-# exported via roxygen2's export tag.
-#' @export Student
-
-loadModule(module = "RcppStudentEx", TRUE)
-
