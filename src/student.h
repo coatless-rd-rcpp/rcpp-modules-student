@@ -1,7 +1,7 @@
-//  Student.hpp
+//  Student.h
 
-#ifndef Student_hpp
-#define Student_hpp
+#ifndef Student_H
+#define Student_H
 
 #include <string>
 #include <vector>
@@ -31,4 +31,4 @@ private:
   std::vector<int> favoriteNumbers;
 };
 
-#endif /* Student_hpp */
+#endif /* Student_H */
