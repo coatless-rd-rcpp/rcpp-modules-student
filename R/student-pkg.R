@@ -4,7 +4,4 @@
 #'
 #' @useDynLib RcppStudent, .registration = TRUE
 #' @import methods Rcpp
-#' @exportPattern "^[[:alpha:]]+"
 "_PACKAGE"
-
-loadModule(module = "RcppStudentEx", TRUE)

@@ -1,14 +1,8 @@
+// Include Rcpp system header file (e.g. <>)
 #include <Rcpp.h>
-#include "student.h"
 
-//' Simulate a student
-//'
-//' @export
-// [[Rcpp::export]]
-std::vector<int> simulate_student() {
-  Student s = Student("bob", 10, true);
-  return s.GetFavoriteNumbers();
-}
+// Include our definition of the student file (e.g. "")
+#include "student.h"
 
 // Expose (some of) the Student class
 RCPP_MODULE(RcppStudentEx){

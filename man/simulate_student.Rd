@@ -2,10 +2,14 @@
 % Please edit documentation in R/RcppExports.R
 \name{simulate_student}
 \alias{simulate_student}
-\title{Simulate a student}
+\title{Create a \code{Student} object.}
 \usage{
 simulate_student()
 }
+\value{
+An \code{integer} vector containing the student's favorite numbers.
+}
 \description{
-Simulate a student
+Constructes a \code{Student} object with non-default values and accesses
+their favorite numbers.
 }
