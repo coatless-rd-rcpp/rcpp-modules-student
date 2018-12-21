@@ -4,12 +4,28 @@
 \name{RcppStudent-package}
 \alias{RcppStudent}
 \alias{RcppStudent-package}
-\title{RcppStudent: What the Package Does (Title Case)}
+\title{RcppStudent: Expose the Student C++ Class using Rcpp Modules}
 \description{
-More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Provides an implementation of a Student 'C++' class being
+    connected to 'R' using 'Rcpp Modules' to expose the underlying class methods.
 }
 \details{
 RcppStudent is a package showing how to use Rcpp Modules to make available
 a C++ class under S4.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item Report bugs at \url{https://github.com/r-pkg-examples/rcpp-modules}
+}
+
+}
+\author{
+\strong{Maintainer}: James Balamuta \email{balamut2@illinois.edu}
+
+Authors:
+\itemize{
+  \item Ben Gorman \email{bgorman@gormanalysis.com}
+}
+
 }
