@@ -33,7 +33,30 @@ in [Rcpp Modules Section 2.2: Exposing C++ classes using Rcpp modules](https://c
 In particular, the focus is to expose a pure _C++_ class inside of _R_ without
 modifying the underlying _C++_ class. Largely, this means that the _C++_ class
 must be "marked up" for export using `RCPP_MODULE( ... )` macro in a separate
-file.
+file. 
+
+```bash
+RcppStudent
+├── DESCRIPTION                  # Package metadata
+├── NAMESPACE                    # Function and dependency registration
+├── R
+│   ├── RcppExports.R
+│   ├── student-exports.R        # Exporting Rcpp Module's Student into R
+│   └── student-pkg.R            # NAMESPACE Import Code for Rcpp Modules
+├── README.md                    # Implementation Overview
+├── RcppStudent.Rproj
+├── man
+│   ├── RcppStudent-package.Rd
+│   └── Student.Rd
+└── src
+    ├── Makevars                 # Enable C++11
+    ├── RcppExports.cpp
+    ├── student.cpp              # Class Implementation
+    ├── student.h                # Class Definition
+    ├── student_export.cpp       # Exporting the C++ Class with RCPP_MODULE
+    └── student_non_modules.cpp  # Example with Rcpp Attributes
+```
+
 
 ### C++ Class Definition
 
