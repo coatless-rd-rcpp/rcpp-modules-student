@@ -1,11 +1,11 @@
-## Exposing _C++_ Classes Through Rcpp Modules
+## Exposing _C++_ Classes into _R_ Through Rcpp Modules
 
 [![Travis-CI Build Status](https://travis-ci.org/r-pkg-examples/rcpp-modules.svg?branch=master)](https://travis-ci.org/r-pkg-examples/rcpp-modules)
 
 The `RcppStudent` _R_ package provides an example of using [Rcpp Modules](https://cran.r-project.org/web/packages/Rcpp/vignettes/Rcpp-modules.pdf)
-to expose C++ functions and classes to _R_.
+to expose _C++_ classes and their methods to _R_.
 
-Code for this example is based a question that arose on StackOverflow titled
+Code for this example is based off a question that arose on StackOverflow titled
 "[Expose simple C++ Student class to R using Rcpp modules](https://stackoverflow.com/questions/53659500/expose-simple-c-student-class-to-r-using-rcpp-modules)" 
 by [Ben Gorman](https://github.com/ben519).
 
@@ -81,7 +81,9 @@ private:
 
 #### C++ Class Implementation
 
-In [src/student.cpp](src/student.cpp), we implement the **meat** behind the _C++_ class. 
+In [src/student.cpp](src/student.cpp), the **meat** behind the _C++_
+class is implemented. The "meat" emphasizes how different methods within the
+class should behave. By 
 
 ```cpp
 //  Student.cpp
@@ -93,7 +95,7 @@ Student::Student(std::string name, int age, bool male) {
   this->name = name;
   this->age = age;
   this->male = male;
-  this->favoriteNumbers = {2, 3, 5, 7, 11};
+  this->favoriteNumbers = {2, 3, 5, 7, 11}; // Requires C++11
 }
 
 // Getters
@@ -171,7 +173,7 @@ loadModule(module = "RcppStudentEx", TRUE)
 
 ### Package Structure
 
-To register the required components for Rcpp Modules, the `NAMESPACE` file 
+To register the required components for Rcpp Modules, the [`NAMESPACE`](NAMESPACE) file 
 must be populated with imports for `Rcpp` and the `methods` _R_ packages.
 In addition, the package's dynamic library must be specified as well.
 
