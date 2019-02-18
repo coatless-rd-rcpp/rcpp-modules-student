@@ -1,6 +1,6 @@
 ## Exposing _C++_ Classes into _R_ Through Rcpp Modules
 
-[![Travis-CI Build Status](https://travis-ci.org/r-pkg-examples/rcpp-modules.svg?branch=master)](https://travis-ci.org/r-pkg-examples/rcpp-modules)
+[![Travis-CI Build Status](https://travis-ci.org/r-pkg-examples/rcpp-modules-student.svg?branch=master)](https://travis-ci.org/r-pkg-examples/rcpp-modules-student)
 
 The `RcppStudent` _R_ package provides an example of using [Rcpp Modules](https://cran.r-project.org/web/packages/Rcpp/vignettes/Rcpp-modules.pdf)
 to expose _C++_ classes and their methods to _R_.
@@ -22,7 +22,7 @@ With a compiler in hand, one can then install the package from GitHub by:
 
 ```r
 # install.packages("devtools")
-devtools::install_github("r-pkg-examples/rcpp-modules")
+devtools::install_github("r-pkg-examples/rcpp-modules-student")
 library("RcppStudent")
 ```
 
