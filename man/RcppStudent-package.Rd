@@ -4,7 +4,7 @@
 \name{RcppStudent-package}
 \alias{RcppStudent}
 \alias{RcppStudent-package}
-\title{RcppStudent: Expose the Student C++ Class using Rcpp Modules}
+\title{RcppStudent: Expose the Student C++ Class using 'Rcpp Modules'}
 \description{
 Provides an implementation of a Student 'C++' class being
     connected to 'R' using 'Rcpp Modules' to expose the underlying class methods.
@@ -16,7 +16,8 @@ a C++ class under S4.
 \seealso{
 Useful links:
 \itemize{
-  \item Report bugs at \url{https://github.com/r-pkg-examples/rcpp-modules}
+  \item \url{https://github.com/r-pkg-examples/rcpp-modules-student}
+  \item Report bugs at \url{https://github.com/r-pkg-examples/rcpp-modules-student/issues}
 }
 
 }
