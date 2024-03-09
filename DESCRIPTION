@@ -8,13 +8,12 @@ Authors@R: c(
     )
 Description: Provides an implementation of a Student 'C++' class being
     connected to 'R' using 'Rcpp Modules' to expose the underlying class methods.
-BugReports: https://github.com/r-pkg-examples/rcpp-modules-student/issues
-URL: https://github.com/r-pkg-examples/rcpp-modules-student
-Depends: R (>= 3.5.0)
-Imports: Rcpp (>= 1.0.0), methods
+BugReports: https://github.com/coatless-r-n-d/rcpp-modules-student/issues
+URL: https://github.com/coatless-r-n-d/rcpp-modules-student, https://rd.thecoatlessprofessor.com/rcpp-modules-student/
+Depends: R (>= 4.3.0)
+Imports: Rcpp (>= 1.0.12), methods
 LinkingTo: Rcpp
 License: GPL (>= 2)
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.1
 Roxygen: list(markdown = TRUE)
-SystemRequirements: C++11
