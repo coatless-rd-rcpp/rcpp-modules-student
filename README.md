@@ -23,8 +23,8 @@ guides.
 With a compiler in hand, one can then install the package from GitHub by:
 
 ```r
-# install.packages("devtools")
-devtools::install_github("r-pkg-examples/rcpp-modules-student")
+# install.packages("remotes")
+remotes::install_github("coatless-rd-rcpp/rcpp-modules-student")
 library("RcppStudent")
 ```
 
