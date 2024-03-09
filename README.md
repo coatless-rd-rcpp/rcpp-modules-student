@@ -1,7 +1,7 @@
 ## Exposing _C++_ Classes into _R_ Through Rcpp Modules
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/coatless-r-n-d/rcpp-modules-student/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/coatless-r-n-d/rcpp-modules-student/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/coatless-rd-rcpp/rcpp-modules-student/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/coatless-rd-rcpp/rcpp-modules-student/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The `RcppStudent` _R_ package provides an example of using [Rcpp Modules](https://cran.r-project.org/web/packages/Rcpp/vignettes/Rcpp-modules.pdf)
