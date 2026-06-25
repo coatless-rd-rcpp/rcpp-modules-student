@@ -26,6 +26,7 @@ Useful links:
 
 Authors:
 \itemize{
+  \item James Balamuta \email{balamut2@illinois.edu}
   \item Ben Gorman \email{bgorman@gormanalysis.com}
 }
 
