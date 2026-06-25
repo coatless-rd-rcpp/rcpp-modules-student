@@ -11,7 +11,7 @@ Description: Provides an implementation of a Student 'C++' class being
 BugReports: https://github.com/coatless-rd-rcpp/rcpp-modules-student/issues
 URL: https://github.com/coatless-rd-rcpp/rcpp-modules-student, https://rd-rcpp.thecoatlessprofessor.com/rcpp-modules-student/
 Depends: R (>= 4.3.0)
-Imports: Rcpp (>= 1.0.12), methods
+Imports: Rcpp (>= 1.1.1), methods
 LinkingTo: Rcpp
 License: GPL (>= 2)
 Encoding: UTF-8
